@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>tic tac toe</title>
+</head>
+<body>
+    <nav>
+        <h1>Wellcome to Tic Tac Toe</h1>
+    </nav>
+    <div class="result-box">
+        <h4 id="h">It's player <span class="player">x</span> turn</h4>
+        
+    </div>
+    <div class="container">
+        <div class="board">
+            <div class="box bl bt"></div>
+            <div class="box bt"></div>
+            <div class="box bt br"></div>
+            <div class="box bl"></div>
+            <div class="box"></div>
+            <div class="box br"></div>
+            <div class="box bb bl"></div>
+            <div class="box bb"></div>
+            <div class="box bb br"></div>
+        </div>
+        <div class="info">
+            <h3>Let's play tic tac toe</h3>
+            <button class="btn" onclick="resetGame()">Play Again</button>
+           <img id="bunny" src="1V8t.gif">
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
